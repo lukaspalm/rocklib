@@ -17,7 +17,9 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 
 
 :green_circle: Camera (Rock Pi 4 SE)  
-:yellow_circle: 16x2 LCD Display  
+:yellow_circle: 16x2 LCD Display 
+:yellow_circle: Individual pin on/off  
+:yellow_circle: tIndividual pin read input  
 :red_circle: Servo-Motor  
 :red_circle: Stepper-Motor  
 :red_circle: Motion Detector
