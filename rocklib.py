@@ -23,7 +23,9 @@ class camera:
 
         else:
             print("\nError: %s could not be found. \nMake sure the camera overlay is enabled and the camera is connected." % device)
-                  
+
+class pins:
+              
 
 
 
