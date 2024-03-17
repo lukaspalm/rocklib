@@ -3,7 +3,7 @@
 A universal python library for GPIO control using [Radxa](https://wiki.radxa.com/) PCBs.
 
 >[!Warning]
-> This library does not yet exist on pypi, as this is a work in progress.
+> This library does not yet exist on pypi, as this is a work in progress.  
 >Also, the code may not be complete. Wait for release, or do debugging yourself.
 
 
