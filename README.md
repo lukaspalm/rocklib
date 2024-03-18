@@ -18,17 +18,17 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 
 
 
- | Feature/Device | X2L | Zero | Zero 2 Pro | Zero 3E | Zero 3W | Rock Pi 4 SE | 
- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
- | Camera RPI v1.3 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟢 | 
- | 16x2 LCD Display | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟡 | 
- | Individual pin on/off | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟡 | 
- | Individual pin read input | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟡 | 
- | Servo-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
- | Stepper-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
- | Motion Detector | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
- | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 |  
- | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Feature/Device | X2L | Zero | Zero 2 Pro | Zero 3E | Zero 3W | Rock Pi E | Rock Pi S | Rock S0 | Rock 3A | Rock 3B | Rock 4SE | 
+ | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+ | Camera RPI v1.3 | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 🟢 | 
+ | 16x2 LCD Display | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟡 | 
+ | Individual pin on/off | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟡 | 
+ | Individual pin read input | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🟡 | 
+ | Servo-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Stepper-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Motion Detector | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 |  
+ | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  
 
 
