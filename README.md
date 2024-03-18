@@ -16,10 +16,24 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 :yellow_circle: - Work in progress  
 :green_circle: - Done and ready to use  
 
+&nbsp;
 
+### X-Series
+ | Feature/Device | X2L |
+ | :--- | :---: |
+ | Camera RPI v1.3 | 🔴 | 🔴 |
+ | 16x2 LCD Display | 🔴 | 🔴 | 
+ | Individual pin on/off | 🔴 | 🔴 | 
+ | Individual pin read input | 🔴 | 🔴 | 
+ | Servo-Motor | 🔴 | 🔴 | 
+ | Stepper-Motor | 🔴 | 🔴 | 
+ | Motion Detector | 🔴 | 🔴 | 
+ | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 | 🔴 | 
+ | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 
 
+&nbsp;
     
-### Rock 4-series
+### Rock 4-Series
 
  | Feature/Device | Rock 4SE | Rock 4A | Rock 4A+ | Rock 4B | Rock 4B+ | Rock 4C+ |
  | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -32,7 +46,8 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
  | Motion Detector | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 |  🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
- 
+
+&nbsp;
 
 
 ## Installation
