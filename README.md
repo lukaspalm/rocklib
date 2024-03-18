@@ -10,35 +10,27 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 
 
 
-## Features
+## Features and Supported Devices
 
 :red_circle: - Not started  
 :yellow_circle: - Work in progress  
 :green_circle: - Done and ready to use  
 
 
+### Rock 4-series
 
- | Feature/Device | Rock Pi 4 SE | 
- | :--- | :---: |
- | Camera RPI v1.3 | 🟢 | 
- | 16x2 LCD Display | 🟡 | 
- | Individual pin on/off | 🟡 | 
- | Individual pin read input | 🟡 | 
- | Servo-Motor | 🔴 | 
- | Stepper-Motor | 🔴 | 
- | Motion Detector | 🔴 | 
- | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 |  
- | Ultrasonic Sensor (HC-SR04) | 🔴 | 
+ | Feature/Device | Rock 4SE | Rock 4A | Rock 4A+ | Rock 4B | Rock 4B+ | Rock 4C+ |
+ | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+ | Camera RPI v1.3 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | 16x2 LCD Display | 🟡 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Individual pin on/off | 🟡 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Individual pin read input | 🟡 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Servo-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Stepper-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Motion Detector | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 |  🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
+ | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  
-
-
-
-## Supported Devices
-
-- Rock Pi 4 SE  
-
-Supported devices will be many more.  
-(Rock Pi 4 SE is the only one I have for testing)
 
 
 ## Installation
@@ -70,7 +62,7 @@ More coming soon...
 
 ## Contributing
 
-You can wish devices that I will add support for, if it does not already exist. View the list of  [supported devices](#Supported-Devices).
+You can wish devices that I will add support for, if it does not already exist. View the list of  [supported devices](#Features-and-Supported-Devices).
 
 Contact me by pinging me in the Radxa discord server `@lukaspalm`, or by sending me a DM on discord. 
 ## License
