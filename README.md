@@ -1,6 +1,6 @@
 # Rocklib
 
-A universal python library for GPIO control using [Radxa](https://wiki.radxa.com/) PCBs.
+A universal python library for GPIO control using [Radxa](https://radxa.com/) PCBs.
 
 >[!Warning]
 > This library does not yet exist on pypi, as this is a work in progress.  
