@@ -67,6 +67,7 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
  | Feature/Device | Rock 3A | Rock 3B | Rock 3C |
  | :--- | :---: | :---: | :---: |
  | Pinouts | 🔴 | 🔴 | 🔴 |
+ | Camera RPI v1.3 | 🟢 | N/A | 🟢 |
  | 16x2 LCD Display | 🔴 | 🔴 | 🔴 |
  | Individual pin on/off | 🔴 | 🔴 | 🔴 |
  | Individual pin read input | 🔴 | 🔴 | 🔴 |
