@@ -21,6 +21,7 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 ### X-Series
  | Feature/Device | X2L |
  | :--- | :---: |
+ | Pinouts | 🔴 |
  | 16x2 LCD Display | 🔴 |
  | Individual pin on/off | 🔴 |
  | Individual pin read input | 🔴 |
@@ -35,6 +36,7 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 ### Zero-Series
  | Feature/Device | Zero | Zero 2 Pro | Zero 3E | Zero 3W |
  | :--- | :---: | :---: | :---: | :---: |
+ | Pinouts | 🔴 | 🔴 | 🔴 | 🔴 | 
  | 16x2 LCD Display | 🔴 | 🔴 | 🔴 | 🔴 | 
  | Individual pin on/off | 🔴 | 🔴 | 🔴 | 🔴 |
  | Individual pin read input | 🔴 | 🔴 | 🔴 | 🔴 |
@@ -49,6 +51,7 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 ### Rock S-Series
  | Feature/Device | Rock Pi S | Rock S0 |
  | :--- | :---: | :---: |
+ | Pinouts | 🔴 | 🔴 | 
  | 16x2 LCD Display | 🔴 | 🔴 | 
  | Individual pin on/off | 🔴 | 🔴 | 
  | Individual pin read input | 🔴 | 🔴 | 
@@ -59,11 +62,27 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
  | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 
 
 &nbsp;
+
+### Rock 3-Series
+ | Feature/Device | Rock 3A | Rock 3B | Rock 3C |
+ | :--- | :---: | :---: | :---: |
+ | Pinouts | 🔴 | 🔴 | 🔴 |
+ | 16x2 LCD Display | 🔴 | 🔴 | 🔴 |
+ | Individual pin on/off | 🔴 | 🔴 | 🔴 |
+ | Individual pin read input | 🔴 | 🔴 | 🔴 |
+ | Servo-Motor | 🔴 | 🔴 | 🔴 |
+ | Stepper-Motor | 🔴 | 🔴 | 🔴 |
+ | Motion Detector | 🔴 | 🔴 | 🔴 |
+ | Keypad ([link](https://m.media-amazon.com/images/I/61VWsKXQmUL._AC_UF1000,1000_QL80_.jpg)) | 🔴 |  🔴 | 🔴 |
+ | Ultrasonic Sensor (HC-SR04) | 🔴 | 🔴 | 🔴 |
+
+&nbsp;
     
 ### Rock 4-Series
 
  | Feature/Device | Rock 4SE | Rock 4A | Rock 4A+ | Rock 4B | Rock 4B+ | Rock 4C+ |
  | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+ | Pinouts | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 
  | Camera RPI v1.3 | 🟢 | N/A | N/A | N/A | N/A | N/A | 
  | 16x2 LCD Display | 🟡 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  | Individual pin on/off | 🟡 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
