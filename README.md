@@ -18,7 +18,7 @@ A universal python library for GPIO control using [Radxa](https://wiki.radxa.com
 
 
 
- | Function/Device | Rock Pi 4 SE | 
+ | Feature/Device | Rock Pi 4 SE | 
  | :--- | :---: |
  | Camera RPI v1.3 | 🟢 | 
  | 16x2 LCD Display | 🟡 | 
