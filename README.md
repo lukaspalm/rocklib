@@ -2,10 +2,10 @@
 
 A universal python library for GPIO control using [Radxa](https://radxa.com/) PCBs.
 
->[!Warning]
-> This library does not yet exist on pypi, as this is a work in progress.  
-> The code may not be complete. Wait for release, or do debugging yourself.
 
+> [!IMPORTANT]
+> For any bugs found, please open an issue here on github.  
+> Optionally, contact me by pinging `@lukaspalm` in the radxa discord server, or by sending a DM.
 
 
 
@@ -127,14 +127,17 @@ A universal python library for GPIO control using [Radxa](https://radxa.com/) PC
 &nbsp;
 
 
-## Installation
+## Installation  
+>[!Warning]
+> This library does not yet exist on pypi, as this is a work in progress.  
+> The code may not be complete. Wait for release, or do debugging yourself.
 
 You will need `python3-dev`, on Debian/Ubuntu. You can install this with:
 ```bash
 sudo apt install python3-dev
 ```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install rocklib and gpiod, which is utilized for GPIO control. 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install rocklib and gpiod (will be removed in future versions). 
 
 ```bash
 pip install rocklib gpiod
