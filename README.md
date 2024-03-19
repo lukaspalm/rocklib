@@ -5,7 +5,7 @@ A universal python library for GPIO control using [Radxa](https://radxa.com/) PC
 
 > [!IMPORTANT]
 > For any bugs found, please open an issue here on github.  
-> Optionally, contact me by pinging `@lukaspalm` in the radxa discord server, or by sending a DM.
+> Optionally, contact me by pinging `@lukaspalm` in the radxa discord server, or by sending a DM on discord.
 
 
 
