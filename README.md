@@ -154,6 +154,15 @@ camera.takePicture(out="picture.jpg", device="/dev/video0")
 ```
 More coming soon...
 
+&nbsp;
+
+## TODO
+- Pinouts for all versions
+- Pin-control without depending on gpiod
+- Finding members of the community for testing on new versions
+
+&nbsp;
+
 ## Contributing
 
 You can wish devices that I will add support for, if it does not already exist. View the list of  [supported devices](#Features-and-Supported-Devices).
