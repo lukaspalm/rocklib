@@ -144,8 +144,10 @@ pip install rocklib gpiod
 ```
 
 ## Usage
-
-### Camera
+<details>
+ 
+<summary> Camera </summary>
+<br>
 ```python
 from rocklib import camera
 
@@ -155,6 +157,8 @@ from rocklib import camera
 camera.takePicture(out="picture.jpg", device="/dev/video0")
 
 ```
+
+</details>
 More coming soon...
 
 &nbsp;
