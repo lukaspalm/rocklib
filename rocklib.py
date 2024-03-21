@@ -1,10 +1,12 @@
 
+## NOT FINISHED 
+"""
 class servo9g:
     def setAngle(deg):
             pulse = 1.5 + (deg * (0.5/90))
             pulse = round(pulse, 3)
             print("Pulse set to %s" % pulse)
-
+"""
 
 
 class camera:
@@ -24,7 +26,7 @@ class camera:
         else:
             print("\nError: %s could not be found. \nMake sure the camera overlay is enabled and the camera is connected." % device)
 
-class pins:
+
               
 
 
