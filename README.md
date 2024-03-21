@@ -3,6 +3,13 @@
 A universal python library for GPIO control using [Radxa](https://radxa.com/) PCBs.
 
 
+> [!NOTE]  
+> **Version 1.0** is almost here!  
+> This will include pin toggle, and reading pin input values, with support for all Rock 4-Series models.  
+> If you want your device to be next, contact me and I will make sure to add it to the next one! [contact](#contributing)
+
+<br>
+
 > [!IMPORTANT]
 > For any bugs found, please open an issue here on github.  
 > Optionally, contact me by pinging `@lukaspalm` in the radxa discord server, or by sending a DM on discord.
