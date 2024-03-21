@@ -145,7 +145,7 @@ pip install rocklib gpiod
 
 ## Usage
 
-<details> 
+<details open> 
 <summary>Camera</summary>
 <br>
  
