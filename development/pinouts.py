@@ -1,3 +1,5 @@
+
+# Sould be class, not None-type variable, Does not work yet
 pinouts = None
 
 pinouts.rock4 = {
