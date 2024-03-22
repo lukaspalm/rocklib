@@ -144,10 +144,10 @@ You will need `python3-dev`, on Debian/Ubuntu. You can install this with:
 sudo apt install python3-dev
 ```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install rocklib and gpiod (will be removed in future versions). 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install rocklib. 
 
 ```bash
-pip install rocklib gpiod
+pip install rocklib
 ```
 
 ## Usage
