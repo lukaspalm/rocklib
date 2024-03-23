@@ -54,17 +54,25 @@ class pins:
                 try:
                     import os
                     
-                    with open("/sys/class/gpio/export", "w") as f:
-                        f.write(str(toggle))
-                        f.close()
-
-                    with open(f"/sys/class/gpio/gpio{toggle}/direction", "w") as f:
-                        f.write("out")
-                        f.close()
-
-                    with open(f"/sys/class/gpio/gpio{toggle}/value", "w") as f:
-                        f.write(str(state))
-                        f.close()
+                    if os.path.exists(f"/sys/class/gpio/gpio{toggle}"):
+                        with open(f"/sys/class/gpio/gpio{toggle}/direction", "w") as f:
+                            f.write("out")
+                            f.close()
+                        with open(f"/sys/class/gpio/gpio{toggle}/value", "w") as f:
+                            f.write(str(state))
+                            f.close()
+                    
+                    else:
+                        with open("/sys/class/gpio/export", "w") as f:
+                            f.write(str(toggle))
+                            f.close()
+                        with open(f"/sys/class/gpio/gpio{toggle}/direction", "w") as f:
+                            f.write("out")
+                            f.close()
+                        with open(f"/sys/class/gpio/gpio{toggle}/value", "w") as f:
+                            f.write(str(state))
+                            f.close()
+                    
                 except Exception as e:
                     print("Error: %s" % e)
             else: 
