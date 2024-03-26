@@ -175,7 +175,7 @@ More coming soon...
 - Pinouts for all versions
 - Pin-control without depending on gpiod
 - Finding members of the community for testing on new versions  
-- Pin control by editing export and pin/value.txt (very slow, but functional)
+- Pin control with SYSfs innerface
 
 &nbsp;
 
