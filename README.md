@@ -166,6 +166,26 @@ camera.takePicture(out="picture.jpg", device="/dev/video0")
 
 ```
 </details>
+<details>
+<summary>Pin Toggle</summary>
+<br>
+ 
+```python
+from rocklib import pins, pinouts
+
+# Example for Rock Pi 4-Series
+# Initialize the GPIO pinout for Rock 4-series
+pins.initialize(pinouts.ROCK4)
+
+# Set pin 22 to value 1. Now pin 22 will be HIGH
+pins.setPin(22, 1)
+
+# Set pin 22 to value 0. Now pin 22 will be LOW
+pins.setPin(22, 0)
+
+```
+</details>
+
 
 More coming soon...
 
