@@ -3,7 +3,6 @@ import os
 class camera:
     
     def takePicture(out, device="/dev/video0"):
-        import os
         if os.path.exists(device):
 
             print("Taking picture and saving to %s" % out)
@@ -41,7 +40,6 @@ class pins:
             
             if isinstance(toggle, int):
                 try:
-                    import os
                     
                     if os.path.exists(f"/sys/class/gpio/gpio{toggle}"):
                         with open(f"/sys/class/gpio/gpio{toggle}/direction", "w") as f:
@@ -68,40 +66,6 @@ class pins:
                 print("Error: %s not possible to toggle" % pins.pinout[pin])
         except ValueError:
             print("Error toggling pin %s.\nMake sure that the pin is not GND, 5V or 3.3v.\nAlso, make sure that the toggle value is 0 or 1." % pin)
-
-    def getPin(pin):
-        
-
-        try:
-            toggle = int(pins.parsePinout(pin, pins.pinout))
-            if os.path.exists(f"/sys/class/gpio/gpio{toggle}"):
-
-                with open(f"/sys/class/gpio/gpio{toggle}/direction", "w") as f:
-                    f.write("in")
-                    f.close()
-
-                with open(f"/sys/class/gpio/gpio{toggle}/value", "r") as f:
-                    value = f.read()
-                    f.close()
-                    return value
-            else:
-
-                with open("/sys/class/gpio/export", "w") as f:
-                    f.write(str(toggle))
-                    f.close()
-                
-                with open(f"/sys/class/gpio/gpio{toggle}/direction", "w") as f:
-                    f.write("in")
-                    f.close()
-                
-                with open(f"/sys/class/gpio/gpio{toggle}/value", "r") as f:
-                    value = f.read()
-                    f.close()
-                    return value
-        
-        except Exception as e:
-            print("Error: %s" % e)
-            return None
         
 
 

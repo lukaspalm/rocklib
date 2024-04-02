@@ -1,0 +1,18 @@
+[project]
+name = "rocklib"
+version = "1.0"
+authors = [
+  { name="Lukas Palm", email="lukaspalm358@gmail.com" },
+]
+description = "A universal library in python for the Radxa PCBs. "
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/lukaspalm/rocklib"
+Issues = "https://github.com/lukaspalm/rocklib/issues"
