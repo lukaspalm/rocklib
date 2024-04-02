@@ -109,7 +109,7 @@ A universal python library for GPIO control using [Radxa](https://radxa.com/) PC
  | Camera RPI v1.3 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | N/A | 
  | 16x2 LCD Display | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 
  | Individual pin on/off | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 
- | Individual pin read input | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 
+ | Individual pin read input | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 
  | Servo-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  | Stepper-Motor | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
  | Motion Detector | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 
