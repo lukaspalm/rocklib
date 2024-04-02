@@ -5,8 +5,8 @@ A universal python library for GPIO control using [Radxa](https://radxa.com/) PC
 
 > [!NOTE]  
 > **Version 1.0** is almost here!  
-> This will include pin toggle, and reading pin input values, with support for all Rock 4-Series models.  
-> If you want your device to be next, [contact me](#contributing) and I will make sure to add it to the next one!
+> This will include pin toggle, and reading pin input values, with support for all Rock 4-Series models. This will use the SYSfs innerface.  
+> If you want your device to be next, [contact me](#contributing) and I will make sure to add it to the next version!
 
 <br>
 
@@ -175,7 +175,7 @@ More coming soon...
 - Pinouts for all versions
 - Pin-control without depending on gpiod
 - Finding members of the community for testing on new versions  
-- Pin control by editing export and pin/value.txt (very slow, but functional)
+- Pin control with SYSfs innerface
 
 &nbsp;
 
