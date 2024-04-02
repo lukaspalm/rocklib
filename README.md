@@ -5,7 +5,7 @@ A universal python library for GPIO control using [Radxa](https://radxa.com/) PC
 
 > [!NOTE]  
 > **Version 1.0** is almost here!  
-> This will include pin toggle, and reading pin input values, with support for all Rock 4-Series models. This will use the SYSfs innerface.  
+> This will include pin toggle, and reading pin input values (Read was moved to **Version 2.0**, as it is deprecated on the SYSfs interface), with support for all Rock 4-Series models. This will use the SYSfs innerface.  
 > If you want your device to be next, [contact me](#contributing) and I will make sure to add it to the next version!
 
 <br>
@@ -166,6 +166,29 @@ camera.takePicture(out="picture.jpg", device="/dev/video0")
 
 ```
 </details>
+
+<br>
+
+<details>
+<summary>Pin Toggle</summary>
+<br>
+ 
+```python
+from rocklib import pins, pinouts
+
+# Example for Rock Pi 4-Series
+# Initialize the GPIO pinout for Rock 4-series
+pins.initialize(pinouts.ROCK4)
+
+# Set pin 22 to value 1. Now pin 22 will be HIGH
+pins.setPin(22, 1)
+
+# Set pin 22 to value 0. Now pin 22 will be LOW
+pins.setPin(22, 0)
+
+```
+</details>
+
 
 More coming soon...
 
