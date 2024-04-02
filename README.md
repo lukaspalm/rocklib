@@ -166,6 +166,9 @@ camera.takePicture(out="picture.jpg", device="/dev/video0")
 
 ```
 </details>
+
+<br>
+
 <details>
 <summary>Pin Toggle</summary>
 <br>
