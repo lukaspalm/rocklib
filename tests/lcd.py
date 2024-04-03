@@ -33,6 +33,7 @@ class lcd:
     def sendLcd(bins):
         for pair in bins:
             for part in pair:
+                pins.setPin(lcd.E, 0)
                 partchars = list(str(part))
                 number = 0
                 for char in partchars:
@@ -45,6 +46,7 @@ class lcd:
                         pins.setPin(lcd.dataPins[number], 0)
                     number += 1
                 print("E HIGH")
+                pins.setPin(lcd.E, 1)
 
 
     def write(string):
