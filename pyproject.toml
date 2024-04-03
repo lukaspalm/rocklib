@@ -4,9 +4,10 @@ version = "1.0"
 authors = [
   { name="Lukas Palm", email="lukaspalm358@gmail.com" },
 ]
-description = "A universal library in python for the Radxa PCBs. "
+description = "A universal library in python for the Radxa PCBs."
 readme = "README.md"
 requires-python = ">=3"
+keywords = ['python', 'gpio', 'radxa', 'rock pi', 'pcb', 'rock']
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

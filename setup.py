@@ -19,7 +19,6 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['opencv-python', 'pyautogui', 'pyaudio'],
     keywords=['python', 'gpio', 'radxa', 'rock pi', 'pcb', 'rock'],
     classifiers=[
         "Programming Language :: Python :: 3",
